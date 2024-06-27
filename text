@@ -1,0 +1,12 @@
+cPanel
+Files - FTP Accounts
+log in -
+password -
+directory - public_html (podesimo, ovu, glavnu rutu)
+quotq - unlimited
+Create FTP Account *
+link ispod: Configurate FTP Client - prikazaće na Host = Server, Username = User, password i port
+koji su nam potrebni da pokrenemo FileZilu Client
+Unosom ovih podataka u naslovnoj liniji, Quickonect *, OK*
+Levo su naši lokalni fajlovi
+Desno spisak fajlova iz cPanela - FileMenager - public_html
