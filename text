@@ -13,4 +13,5 @@ Desno spisak fajlova iz cPanela - FileMenager - public_html
 Potrebno je pronaći wp-config.php iz desnih fajlova, u glavnoj je ruti i prebaciti ga u naš levi gde su naši child style.css i rtl.css
 tu je zapisano sve za glavnu konfiguraciju sajta: ime baze, juzera, pasvord, host, charset= editovati na utf8, ukoliko piše drugo
 u ovaj fajl dodamo ovo: define('WP_AUTO_UPDATE_CORE', false ); kako bismo sprečili auto update jer to ćemo ručno raditi, nakon što uradimo backup
-Ovaj izmenjeni, konfiguracioni, fajl vraćamo na isto mesto u desni deo duplim klikom
+Ovaj izmenjeni, konfiguracioni, fajl vraćamo na isto mesto u desni deo duplim klikom (u original temu ne u child temu)
+uključiti reviziju na stranice i ćlanke: define('WP_POST_REVISIONS', 5); - pamti poslednjih 5 izmena
