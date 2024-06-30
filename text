@@ -15,3 +15,8 @@ tu je zapisano sve za glavnu konfiguraciju sajta: ime baze, juzera, pasvord, hos
 u ovaj fajl dodamo ovo: define('WP_AUTO_UPDATE_CORE', false ); kako bismo sprečili auto update jer to ćemo ručno raditi, nakon što uradimo backup
 Ovaj izmenjeni, konfiguracioni, fajl vraćamo na isto mesto u desni deo duplim klikom (u original temu ne u child temu)
 uključiti reviziju na stranice i ćlanke: define('WP_POST_REVISIONS', 5); - pamti poslednjih 5 izmena
+
+CHILD temu možemo 
+- graditi preko widžeta za to koristimo funkcije (function.php) i Templete (page-contact.php)
+- i pozivati na stranu ono što admin unese u wp
+* Advanced Custom Fields neizbežan plugin za izradu child teme
