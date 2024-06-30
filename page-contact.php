@@ -11,6 +11,11 @@ Prvo pored komentara što treba da imamo na strani su heder i futer
 
 <?php get_header(); ?>
 
+<main class="page_contact">
+  <h2>Kontakt</h2>
+  ....
+</main>
+
 <?php get_footer(); ?>
 
 Strana u WP je prazna, sve treba da obrišemo jer koristimo Template koji ima sadržaj ispisan na ovoj strani
