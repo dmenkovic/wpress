@@ -14,3 +14,5 @@ Prvo pored komentara što treba da imamo na strani su heder i futer
 <?php get_footer(); ?>
 
 Strana u WP je prazna, sve treba da obrišemo jer koristimo Template koji ima sadržaj ispisan na ovoj strani
+Prednost je što se ne kontroliše ništa iz admina već iz koda pa pristup nemaju administratori wpresa već onaj ko ima kod
+Samim tim se ne može editovati ni brisati
